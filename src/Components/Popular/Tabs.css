@@ -1,0 +1,19 @@
+.Category {
+    display: flex;
+    justify-content: space-between;
+    background: #ddd;
+
+}
+.Category>div {
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+}
+.content {
+    display: none;
+}
+.show-content {
+    display: block;
+    background: darkorange;
+}

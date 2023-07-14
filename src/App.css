@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Fjalla One', sans-serif;
+font-family: 'Jost', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.Newregistration {
+  color: #fff;
+  padding: 50px 0;
+  background: #031d2e; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Featured {
+  background: #031d2e;
+  color: #fff;
+  padding: 50px 0;
+  background-image: url(../public/assets/images/bg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* resposive Start From Here */
+
+@media screen and (max-width:1399px) {
+  .service-content h2 {
+    font-size: 26px;
+    padding: 7px 0;
+}
+.blogcontent h2 {
+  font-size: 19px;
+}
+.shopname h2 {
+  font-size: 24px;
+}
+.shopContent {
+  bottom: 119px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+
+@media screen and (max-width:768px) {
+  .Featured, .popular {
+    padding-top: 0 !important;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (max-width:639px) {
+  .slick-list {
+    padding: 17px 0 !important;
 }
-
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (max-width:479px) {
+  .service-content h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+}
+h2.titleHead {
+  font-size: 34px;
+}
+.service-content p {
+  display: none;
+}
+.mt-5 {
+  margin-top: 20px !important;
+}
 }

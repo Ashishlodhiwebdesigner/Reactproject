@@ -1,0 +1,64 @@
+del {
+    padding-left: 8px;
+    color: #aba8a8;
+    font-weight: bold;
+}
+.price {
+    font-size: 18px;
+    font-family: 'Philosopher', sans-serif;
+}
+span {
+    padding-right: 8px;
+}
+.cart ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.cart ul li {
+    display: inline-block;
+    padding: 7px;
+    background: #07273c;
+}
+.product-img {
+    position: relative;
+    overflow: hidden;
+}
+.product-img .cart {
+    background: darkorange;
+    padding: 2px;
+    margin: 0;
+    transform: translateY(10px);
+    position: absolute;
+    width: 100%;
+    transition: .4s ease-in-out;
+}
+.cart ul li a {
+    color: #fff;
+}
+.productReview:hover .cart {
+    transform: translateY(-52px);
+    transition: .4s ease-in-out;
+}
+
+.productReview {
+    box-shadow: 0 0 10px #02152287;
+    margin: 0 10px
+}
+.product-content {
+    padding: 15px;
+}
+
+@media screen and (max-width:767px) {
+    .reviewslider {
+        padding-top: 0;
+    }
+}
+@media screen and (max-width:479px) {
+    .product-img img {
+        height: 250px !important;
+        object-fit: cover;
+    }
+   
+}

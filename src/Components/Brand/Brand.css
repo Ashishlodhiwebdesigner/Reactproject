@@ -1,0 +1,34 @@
+.brand {
+    background-image: url(../../../public/assets/images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.brandCard img {
+    width: 100%;
+    height:80px;
+    object-fit: contain;
+}
+
+@media screen and (max-width:1399px) {
+    .blogcontent h2 {
+        font-size: 19px;
+ 
+    }
+}
+
+@media screen and (max-width:991px) {
+    .brandCard img {
+        height: 53px;
+    }
+}
+@media screen and (max-width:767px) {
+    .slick-list {
+        padding: 20px 0 !important;
+    }
+}
+@media screen and (max-width:479px) {
+    .brandCard img {
+        width: 95%;
+    }
+}

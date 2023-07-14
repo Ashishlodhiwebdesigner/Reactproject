@@ -1,0 +1,66 @@
+.blogImage img {
+    width: 100%;
+}
+.blogImage {
+    position: relative;
+}
+
+.date {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: darkorange;
+}
+.date h5 {
+    margin: 0;
+    font-size: 18px;
+    padding: 10px 25px;
+}
+.blogcontent {
+    padding: 10px;
+}
+.blogcontent h2 {
+    font-size: 22px;
+    padding-top: 10px;
+    transition: .3s ease-in-out;
+    height: 104px;
+    overflow: hidden;
+}
+.blogcontent h2:hover {
+    color: darkorange;
+    transition: .3s ease-in-out;
+}
+.upload i {
+    color: darkorange;
+}
+
+.blogcontent a {
+    background: darkorange;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    transition: .4s ease-in-out;
+}
+.blogcontent a:hover {
+    background: transparent;
+    border-color: darkorange;
+    color: darkorange;
+    transition: .4s ease-in-out;
+}
+.blogCard {
+    box-shadow: 0 0 10px #02152287;
+    padding: 10px;
+    background: #10324b;
+}
+
+@media screen and (max-width:767px) {
+    .blogcontent h2 {
+        height: 69px;
+    }
+}
+@media screen and (max-width:479px) {
+    .blogcontent h2 {
+        height: 82px;
+    }
+}

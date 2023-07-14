@@ -1,0 +1,35 @@
+h2.titleHead {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 52px;
+    font-weight: bolder;
+    font-family: none;
+    position: relative;
+    color: #fff;
+}
+h2.titleHead::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15%;
+    height: 5px;
+    background: darkorange;
+}
+
+@media screen and (max-width:991px) {
+    h2.titleHead::after {
+        width: 25%;
+    }
+}
+@media screen and (max-width:767px) {
+    h2.titleHead::after {
+        width:35%;
+    }
+}
+@media screen and (max-width:767px) {
+    h2.titleHead {
+       font-size: 38px;
+    }
+}

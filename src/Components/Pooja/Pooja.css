@@ -1,0 +1,31 @@
+.Pooja {
+    box-shadow: 0 0 10px #011420;
+    background: #10324b;
+}
+.poojacontent {
+    text-align: center;
+    padding: 20px 10px;
+}
+.poojacontent h3 {
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 21px;
+    justify-content: center;
+}
+.poojacontent a, .subbtn {
+    background: darkorange;
+    padding: 7px 15px;
+    color: #fff;
+    border: 1px solid transparent;
+    transition: .2s ease-in-out;
+}
+.poojacontent a:hover, .subbtn:hover {
+    background: transparent;
+    border-color: darkorange;
+    color: darkorange;
+    transition: .2s ease-in-out;
+}
+.modal-dialog {
+    color: #031d2e;
+}
